@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.1.css?version=1.1.1">
     <script defer src="assets/js/app.v1.js?version=1.0.1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <?php include 'env.php'; ?>
 
@@ -411,8 +412,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="container-fluid">
-                            <div class="row">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMwORUzncjfQgroW4q_AvduXxyAiGLOyeUDVEF5xszF09zqA/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            <div class="row d-none" id="query_container" >
+                                <iframe id="query_form" loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLScMwORUzncjfQgroW4q_AvduXxyAiGLOyeUDVEF5xszF09zqA/viewform?embedded=true"width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                             </div>
                         </div>
                     </div>
@@ -445,15 +446,11 @@
             </div>
         </div>
         
-        <?php
-            // $to      = 'itsupport.brpi@bioseed.com';
-            // $subject = 'the subject';
-            // $message = 'hello';
-            // $headers = 'From: portal@bioseed.com.ph'       . "\r\n" .
-            //             'Reply-To: itsupport.brpi@bioseed.com';
-
-            // mail($to, $subject, $message, $headers);
-        ?>
+        <script> 
+            $('query_form').ready(function(){
+                $('#query_container').removeClass('d-none'); 
+            }); 
+        </script>
     </footer>
     <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
