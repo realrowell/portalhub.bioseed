@@ -1,0 +1,149 @@
+:root{
+    --primary-color: #00A040;
+    --primary-dark-color: #00653D;
+    --secondary-color: #FBB604; 
+    --success-color: #009AF0;
+    --danger-color: #D1362A;
+    --warning-color: #FB5D04;
+    --light-color: #eeeeee;
+    --dark-color: #1C1C1C;
+    --info-color: #209BC8;
+    --pure-light: white;
+    --pure-dark: black;
+
+    --primary-color-hover: #014b2d;
+    --secondary-color-hover: #ffa010;
+    --success-color-hover: #0070f0;
+    --danger-color-hover: #e01c0d;
+    --warning-color-hover: #fba504;
+    --light-color-hover: #3b3b3b;
+    --dark-color-hover: #ececec;
+    --info-color-hover: #0069af;
+
+    --background-primary: #104657;
+    --background-secondary: #152128;
+}
+
+body{  
+    overflow: y hidden;
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.text-font-light{
+    color: var(--pure-light);
+}
+.text-color-dark{
+    color: var(--dark-color);
+} 
+.text-color-primary{
+    color: var(--primary-color);
+} 
+
+.text-color-secondary-hover{
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.text-color-secondary-hover:hover{
+    color: var(--secondary-color-hover);
+}
+
+.bg-custom-secondary{
+    background-color: var(--background-secondary);
+}
+.btn-custom-primary{
+    color: var(--pure-light);
+    outline-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+.btn-custom-primary:hover{
+    color: var(--pure-light);
+    outline-color: var(--primary-color-hover);
+    background-color: var(--primary-color-hover); 
+}
+.btn-custom-primary:active {
+    color: var(--pure-light);
+    outline-color: var(--secondary-color-hover);
+    background-color: var(--secondary-color);
+    transform: scale(0.97); 
+}
+
+.text-decoration-underline-hover{
+    text-decoration: none; 
+}
+.text-decoration-underline-hover:hover{  
+    text-decoration: underline;
+}
+
+.bg-custom-primary{
+    background-color: var(--background-primary);
+}
+.bg-custom-primary-dark{
+    background-color: var(--background-primary-dark);
+}
+.bg-gradient-dark{
+    /* background: rgb(0,0,0); */
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,0,0,0.7987570028011204) 21%, rgba(0,0,0,0) 100%), url(/assets/img/adp_banner.webp); 
+    /* background-image: url(/assets/img/adp_banner.webp);  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-img-norepeat{
+    background-repeat: no-repeat;
+}
+.bg-img-center{
+    background-position: center;
+}
+.bg-img-fill{
+    background-size: fill;
+}
+.bg-img-cover{
+    background-size: cover;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.hover-zoom{
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.hover-zoom:hover{ 
+    transform: scale(1.05);
+}
+.hover-zoom:active{
+    transform: scale(0.9);
+}
+
+main {
+    scroll-snap-type: y mandatory;
+    overflow: y scroll;
+}
+section {
+    scroll-snap-align: start;
+} 
+
+
+ 
+.card-scroll-animation{
+    transform: translateY(20%);
+    opacity: 0;
+    animation: scale-up 0.8s ease-in-out;  
+    animation-fill-mode: both; 
+    animation-delay: 250ms;
+} 
+
+@keyframes scale-up { 
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+ 
