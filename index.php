@@ -412,7 +412,7 @@
                     <div class="row">
                         <div class="container-fluid">
                             <div class="row">
-                                <iframe src="https://www.bioseed.com.ph/query-form-page/" style="width: 100vw; height: 95vh" title="Query"></iframe>
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMwORUzncjfQgroW4q_AvduXxyAiGLOyeUDVEF5xszF09zqA/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                             </div>
                         </div>
                     </div>
