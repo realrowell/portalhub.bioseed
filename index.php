@@ -433,6 +433,15 @@
                 </div>
             </div>
         </div>
+        <?php
+            $to      = 'itsupport.brpi@bioseed.com';
+            $subject = 'the subject';
+            $message = 'hello';
+            $headers = 'From: portal@bioseed.com.ph'       . "\r\n" .
+                        'Reply-To: itsupport.brpi@bioseed.com';
+
+            mail($to, $subject, $message, $headers);
+        ?>
     </footer>
     <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
