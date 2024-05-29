@@ -427,7 +427,7 @@
                     </div>
                     <div class="row text-center">
                         <div class="col"> 
-                            <p class="text-light">©<?php echo date('Y') ?> Bioseed Research Philippines, Inc.. All Rights Reserved. Powered by Bioseed Information Management Systems.</p>
+                            <p class="text-light">©<?php echo date('Y') ?> Bioseed Research Philippines, Inc.. All Rights Reserved. Powered by Bioseed Information Management Systems. Beta v0.1</p>
                         </div>
                     </div>
                 </div>
