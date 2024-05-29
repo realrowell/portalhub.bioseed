@@ -407,6 +407,17 @@
                     </div>
                 </div>
             </section>
+            <section class="mt-5 mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <iframe src="https://www.bioseed.com.ph/query-form-page/" style="width: 100vw; height: 95vh" title="Query"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
     <footer class="mt-5">
@@ -433,6 +444,16 @@
                 </div>
             </div>
         </div>
+        
+        <?php
+            // $to      = 'itsupport.brpi@bioseed.com';
+            // $subject = 'the subject';
+            // $message = 'hello';
+            // $headers = 'From: portal@bioseed.com.ph'       . "\r\n" .
+            //             'Reply-To: itsupport.brpi@bioseed.com';
+
+            // mail($to, $subject, $message, $headers);
+        ?>
     </footer>
     <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
