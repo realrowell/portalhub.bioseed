@@ -408,12 +408,68 @@
                     </div>
                 </div>
             </section>
+            <!-- <section class="mt-5 mb-5">
+                <div class="container">
+                    <div class="row card-wrapper">
+                        <div class="contianer-fluid">
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <span class="d-flex"><h1 class="text-color-dark">COMPANY &nbsp;</h1> <h1 class="text-color-primary"> PROFILE</h1></span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <video controls autoplay="autoplay" style="width: clamp(10vw, 100%, 90vw); height:auto;">
+                                        <source src="assets/img/company_profile.mp4" type="video/mp4"> 
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
             <section class="mt-5 mb-5">
                 <div class="container">
+                    <div class="row card-wrapper">
+                        <div class="contianer-fluid">
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <span class="d-flex"><h1 class="text-color-dark">QUERY &nbsp;</h1> <h1 class="text-color-primary"> FORM</h1></span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
                     <div class="row">
                         <div class="container-fluid">
                             <div class="row d-none" id="query_container" >
-                                <iframe id="query_form" loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLScMwORUzncjfQgroW4q_AvduXxyAiGLOyeUDVEF5xszF09zqA/viewform?embedded=true"width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                                    <div class="row text-center">
+                                        <div class="col"> 
+                                            <img class="text-center" src="assets/img/bioseed_logo.webp" alt="bioseed logo" style="width: 200px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h2>Bioseed Research Philippines, Inc.</h2>
+                                            <h5>National Highway, Katangawan, General Santos City, Philippines - 9500</h5>
+                                            <h5>bioseedphilippines@bioseed.com</h5>
+                                            <h5>+63 83 5525870</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col">
+                                            <h2>Feel free to ask a question here!</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <iframe id="query_form" loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLScMwORUzncjfQgroW4q_AvduXxyAiGLOyeUDVEF5xszF09zqA/viewform?embedded=true" height="800" frameborder="0" marginheight="0" marginwidth="0" style="width: clamp(35vw, 100%, 90vw)">Loading…</iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
