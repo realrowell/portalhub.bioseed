@@ -53,8 +53,8 @@
                         <div class="container d-flex justify-content-center">
                             <div class="row text-center align-items-center">
                                 <div class="col">
-                                    <img src="assets/img/portal_hub_logo.png" alt="portal_hub_logo" style="width: clamp(300px, 100%, 700px); ">
-                                    <h4 class="mt-3 text-light text-sm-center">HR Café – Connect. Accessible. Friendly Engagement.</h4>
+                                    <img src="assets/img/portal_hub_logo_alt.png" alt="portal_hub_logo" style="width: clamp(300px, 100%, 700px); ">
+                                    <!-- <h4 class="mt-3 text-light text-sm-center">HR Café – Connect. Accessible. Friendly Engagement.</h4> -->
                                 </div>
                             </div>
                         </div>
